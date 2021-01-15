@@ -1,6 +1,15 @@
 .first-container{
-    height: 100vh;
+    height: 80vh;
     background: url(../../assets/images/Illustration.svg) no-repeat;
     background-position: right;
     background-size: 100vh;
+    
 }
+
+@media screen and (max-width: 768px) {
+    .first-container{
+        background-size:100vh;
+        z-index: -1;
+        background-position: center; 
+    }
+  }

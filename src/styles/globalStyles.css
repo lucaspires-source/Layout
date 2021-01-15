@@ -1,7 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -10,12 +15,15 @@ html{
 *, button, input {
     border:0;
     background:none;
+    font-family: 'Poppins', sans-serif;
 }
 ul{ 
     list-style:none;
+    font-family: 'Poppins', sans-serif;
 }
 :root{
     --green:#badc58;
+    --darkgreen:#6BBC61;
     --blue:#2f285b;
     --lightgray:#a9a7b9;
     --darkgrey:#aaa7ba;
