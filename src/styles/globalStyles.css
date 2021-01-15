@@ -2,5 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:#fff;
+}
+
+html{
+    min-height:100%;
+}
+*, button, input {
+    border:0;
+    background:none;
+}
+ul{ 
+    list-style:none;
+}
+:root{
+    --green:#badc58;
+    --blue:#2f285b;
+    --lightgray:#a9a7b9;
+    --darkgrey:#aaa7ba;
 }

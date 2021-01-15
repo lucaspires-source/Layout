@@ -1,3 +1,6 @@
-.container{
+.fifth-container{
     height: 100vh;
+    background: url(../../assets/images/bloco_final_image.svg) no-repeat;
+    background-position: right;
+    background-size: 100vh;
 }
