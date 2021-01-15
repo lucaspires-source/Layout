@@ -1,16 +1,16 @@
 import React from 'react'
-import './styles.css'
+import {FooterWrap,FooterLeft,FooterRight} from './styles'
 const Footer = () => {
     return (
-        <div className="footer-container">
-            <div className="footer-container-left">
+        <FooterWrap>
+            <FooterLeft>
                 <h4> © Copyrights 2019. All Rigths Reserved</h4>
-            </div> 
-            <div className="footer-container-right">
+            </FooterLeft>
+            <FooterRight>
                 <h4>Privacy Policy</h4>
                 <h4>Terms and Conditions</h4>
-            </div>
-        </div>
+            </FooterRight>
+        </FooterWrap>
     )
 }
 
