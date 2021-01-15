@@ -2,9 +2,24 @@ import React from 'react'
 
 const Register = () => {
     return (
-        <div>
-            This is the Register Page
-        </div>
+        <form>
+            <div>
+                <label>Nome</label>
+                <input/>
+            </div>
+            <div>
+                <label>Nascimento</label>
+                <input/>
+            </div>
+            <div>
+                <label>CPF</label>
+                <input/>
+            </div>
+            <div>
+                <label>CEP</label>
+                <input/>
+            </div>     
+        </form>
     )
 }
 
