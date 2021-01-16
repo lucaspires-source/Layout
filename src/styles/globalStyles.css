@@ -28,3 +28,41 @@ ul{
     --lightgray:#a9a7b9;
     --darkgrey:#aaa7ba;
 }
+
+.form-page{
+    height: 100vh;
+}
+
+ form {
+    width: 1000px;
+    margin: 80px auto;
+    border: #2f285b solid 2px;
+    align-items: center;
+    justify-content: center;
+  }
+  .input{
+    border: #2f285b solid 2px;
+  }
+  .form-control-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .form-control-group label {
+    margin-bottom: 5px;
+    text-decoration: underline  #2f285b;
+    align-items: center;
+  }
+
+.form-button{
+    width: 95%;
+
+}
+
+@media screen and (max-width: 760px) {
+    form{
+        width: 300px;   
+        margin: 80px auto;
+    }
+
+  }

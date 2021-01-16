@@ -11,3 +11,5 @@
 [0116/101004.476:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\pires\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\dbc83c4e-a028-472e-a69d-390053abdaf9: O sistema não pode encontrar o caminho especificado. (0x3)
 [0116/101004.478:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [0116/113712.931:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0116/143204.413:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0116/144511.649:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
