@@ -15,3 +15,9 @@
 [0116/144511.649:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [0117/101523.454:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
 [0117/101638.877:ERROR:process_info.cc(359)] UncheckedAllocate
+[0118/161700.730:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\pires\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\37dda509-cbef-49af-86dc-a48620170af0: O sistema não pode encontrar o caminho especificado. (0x3)
+[0118/161700.837:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\pires\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\524b9eeb-40ae-476c-b51c-0f1ec7748b34: O sistema não pode encontrar o caminho especificado. (0x3)
+[0118/161700.839:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\pires\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\563f0c06-5adf-40ad-a908-3c7f36b2209e: O sistema não pode encontrar o caminho especificado. (0x3)
+[0118/161700.841:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\pires\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\6193b916-2730-4610-9176-b765deb35ae5: O sistema não pode encontrar o caminho especificado. (0x3)
+[0118/161700.855:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)
+[0118/163519.365:ERROR:process_info.cc(359)] UncheckedAllocate
