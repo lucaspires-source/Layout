@@ -13,7 +13,6 @@ export const Nav = styled.nav`
 
 export const NavLogo = styled.div`
     font-size: 1.5rem;
-    margin: .5rem;
     flex:8;  
     align-items:center;
     justify-content:center;

@@ -55,10 +55,21 @@ ul{
   }
 
 .form-button{
-    width: 95%;
+    border-radius: 7px;
+  width: 100%;  
+  background: var(--green);
+  padding: 10px 22px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
 
 }
-
+.form-button:hover{
+        transition: all 0.5s ease-in-out;
+        background:var(--darkgreen);
+}
 @media screen and (max-width: 760px) {
     form{
         width: 300px;   

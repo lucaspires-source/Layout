@@ -3,13 +3,13 @@
     background: url(../../assets/images/Illustration.svg) no-repeat;
     background-position: right;
     background-size: 100vh;
-    
+    display: flex;
+    align-items: center;
+    flex: start;
 }
 
 @media screen and (max-width: 768px) {
     .first-container{
-        background-size:100vh;
-        z-index: -1;
-        background-position: center; 
+        background:none;
     }
   }

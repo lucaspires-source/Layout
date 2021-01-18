@@ -1,13 +1,14 @@
 import React from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
-import { Button } from "../components/Button/Button";
+
 import { Persist } from "formik-persist";
 import schema from "../schema";
 const Register = () => {
   const onSubmit = (async (values, actions, { resetForm }) => {
     console.log("SUBMIT", values);
     await onSubmit(values)
-    resetForm()
+    actions.resetForm()
+
   });
 
   const onBlurCep = (e, setFieldValue) => {
@@ -40,7 +41,7 @@ const Register = () => {
           CPF: "",
           Cep: "",
         }}
-        render={({ isValid, setFieldValue }) => (
+        >{({ isValid, setFieldValue }) => (
           <Form>
             <div className="form-control-group">
               <label>Nome</label>
@@ -87,13 +88,15 @@ const Register = () => {
               <label>Estado</label>
               <Field className="input" name="uf" type="text" />
             </div>
-            <Button className="form-button" type="submit" disabled={!isValid} >
-              Enviar
-            </Button>
+            <div className="form-control-group">
+                <button className="form-button" type="submit" disabled={!isValid} >
+                Enviar
+                </button>
+            </div>
             <Persist name="usuario cadastrado" />
           </Form>
         )}
-      />
+      </Formik>
     </div>
   );
 };
