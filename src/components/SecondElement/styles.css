@@ -6,7 +6,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .second-container{
         margin-bottom:  500px;
     }

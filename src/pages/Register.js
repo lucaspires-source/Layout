@@ -7,7 +7,6 @@ const Register = () => {
   const onSubmit = (values, actions) => {
     console.log("SUBMIT", values);
     onSubmit(values)
-    localStorage.setItem('Usuario cadastrado',values)
 
 
   };
@@ -90,7 +89,7 @@ const Register = () => {
               <Field className="input" name="uf" type="text" />
             </div>
             <div className="form-control-group">
-                <button className="form-button" type="submit" disabled={!isValid} >
+                <button  className="form-button" type="submit" disabled={!isValid} >
                 Enviar
                 </button>
             </div>

@@ -43,7 +43,7 @@ export const CardContainer = styled.div`
   grid-template-rows:1fr 1fr;
   grid-column-gap:30px;
   grid-row-gap:35px;
-  @media screen and (max-width: 850px) {
+  @media screen and (max-width: 900px) {
     grid-template-columns:1fr;
     width:100%;
     padding-left:20px;

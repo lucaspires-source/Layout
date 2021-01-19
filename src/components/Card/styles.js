@@ -6,7 +6,10 @@ height:300px;
 overflow:hidden;
 box-shadow:0px 0px 15px -5px;
 display:flex;
-align-items:center
+align-items:center;
+@media screen and (max-width: 900px) {
+  width:100%;
+  }
 `
 
 
