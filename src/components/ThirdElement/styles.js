@@ -7,6 +7,14 @@ height:1000px;
 width: 700px;
 justify-content:flex-end;
 margin-left:1200px;
+padding:10px;
+@media screen and (max-width: 1000px) {
+    width:100%;
+    margin-left:0px;
+    justify-content:center;
+    align-items:center;
+    background-color:#fff;
+  }
 ` 
 
 export const Title = styled.h1`
@@ -14,13 +22,15 @@ color:var(--blue);
 font-weight:700;
 font-size:50px;
 padding-bottom:30px;
-
+@media screen and (max-width: 850px) {
+  font-size:30px;
+}
 `
 
 export const Subtitle = styled.h4`
 color:var(--lightgray);
 font-weight:500;
-font-size:28px;
+font-size:20px;
 padding-bottom:30px;
 
 `
@@ -42,5 +52,6 @@ border-radius: 7px;
   &:hover {
     background: var(--darkgreen);
     color: #fff;
+
   }
 `

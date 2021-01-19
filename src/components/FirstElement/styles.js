@@ -10,7 +10,9 @@ width: 700px;
 margin-left:300px;
 padding:50px;
 text-align:start;
-
+@media screen and (max-width: 850px) {
+    margin-left:0px
+  }
 ` 
 
 export const Title = styled.h1`
@@ -18,11 +20,19 @@ color:var(--blue);
 font-weight:700;
 font-size:80px;
 padding-bottom:5px;
+@media screen and (max-width: 850px) {
+    font-size:40px
+  }
 
 `
 
 export const Input = styled(TextField)`
-width:80%
+width:80%;
+
+@media screen and (max-width: 768px) {
+background:#FFF;
+    
+  }
 `
 
 

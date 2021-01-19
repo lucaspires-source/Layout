@@ -8,10 +8,11 @@
     flex: start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .fifth-container{
-        background: none; 
         
+    background-size:100%;  
+
         
-    }
+    } 
   }

@@ -57,6 +57,9 @@ export const NavMenu = styled.div`
   align-items: center;
   margin-right: -24px;
   flex:3;
+  @media screen and (max-width: 960px) {
+  margin-right:0;
+  }
 `;
 
 export const NavBtn = styled.nav`
@@ -64,7 +67,7 @@ export const NavBtn = styled.nav`
   height: 100px;
   font-size:28px;
   align-items: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
     height: 100px;
     font-size:28px;
     padding-right:50px;

@@ -8,13 +8,20 @@ border:transparent 0.1px black;
 display:flex;
 align-items:center;
 flex-direction:column;
-
+@media screen and (max-width: 850px) {
+  width:100%;
+  margin-bottom:100px;
+  }
 
 ` 
 export const ImageContainer = styled.div`
 >img{
     height:500px;
     width:600px;
+    @media screen and (max-width: 850px) {
+     width:100%;
+    margin-bottom:100px;
+  }
 }
 
 
@@ -23,21 +30,27 @@ export const ImageContainer = styled.div`
 export const CardTitle = styled.div`
 color:var(--blue);
 font-weight:700;
-font-size:25px;
-padding-bottom:20px;
+font-size:40px;
+padding-bottom:15px;
 text-align:start;
-width:300px;
+width:600px;
 height: 200px;
-
+@media screen and (max-width: 850px) {
+  width:100%;
+  height:110px;
+  }
 `
 export const AvatarContainer = styled.div` 
 display:flex;
 align-items:flex-start;
-width:300px;
+width:600px;
 height: 200px;
+@media screen and (max-width: 850px) {
+  width:100%;
+  }
 >img{
-    height:35px;
-    width:35px;
+    height:50px;
+    width:50px;
     border-radius:50%;
 }
 >p{

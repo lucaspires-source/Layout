@@ -10,7 +10,10 @@ width: 700px;
 margin-left:300px;
 padding:50px;
 text-align:start;
-
+@media screen and (max-width: 950px) {
+    width:100%;
+    margin-left:150px;
+  }
 ` 
 
 export const Title = styled.h1`
@@ -22,6 +25,9 @@ font-size:50px;
 
 export const Input = styled(TextField)`
 width:80%;
+@media screen and (max-width: 850px) {
+    background-color:white;
+  }
 `
 
 export const Button = styled.button`

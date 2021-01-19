@@ -6,6 +6,10 @@ export const Container = styled.header`
     padding-top:100px;
     margin-bottom:300px;
     align-items:center;
+    @media screen and (max-width: 850px) {
+    width:100%; 
+    margin-bottom:0;
+  }
 `
 
 export const Title = styled.h1`
@@ -14,6 +18,9 @@ font-weight:700;
 font-size:50px;
 padding-bottom:30px;
 text-align:center;
+@media screen and (max-width: 850px) {
+  display:none;
+  }
 `
 
 export const Subtitle = styled.h4`
@@ -22,8 +29,10 @@ font-weight:500;
 font-size:28px;
 
 margin-bottom:500px;
-text-align:center
-
+text-align:center;
+@media screen and (max-width: 850px) {
+  display:none;
+  }
 `
 
 export const CardContainer = styled.div`
@@ -34,4 +43,9 @@ export const CardContainer = styled.div`
   grid-template-rows:1fr 1fr;
   grid-column-gap:30px;
   grid-row-gap:35px;
-`
+  @media screen and (max-width: 850px) {
+    grid-template-columns:1fr;
+    width:100%;
+    padding-left:20px;
+  }
+  `

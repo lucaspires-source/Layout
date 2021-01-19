@@ -4,12 +4,13 @@ import { Formik, Field, Form, ErrorMessage } from "formik";
 import { Persist } from "formik-persist";
 import schema from "../schema";
 const Register = () => {
-  const onSubmit = (async (values, actions, { resetForm }) => {
+  const onSubmit = (values, actions) => {
     console.log("SUBMIT", values);
-    await onSubmit(values)
-    actions.resetForm()
+    onSubmit(values)
+    localStorage.setItem('Usuario cadastrado',values)
 
-  });
+
+  };
 
   const onBlurCep = (e, setFieldValue) => {
     const { value } = e.target;
